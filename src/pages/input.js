@@ -3,17 +3,8 @@ import React, {Component} from 'react';
 import {Textbox, Button} from "../../src/Components/Form"
 
 import Container from "../../src/Components/Container"
-// obj={
-//   Textbox ,
-//   Form
-// }
-//obj.Textbox, obj.Form
 
-//  obj={
-// name:"phil",
 
-// }
-// obj.name
 class Input extends Component {
 state = {
   name: "",
@@ -27,7 +18,7 @@ handleInputChange = (event) => {
       const {name, value} = event.target
 
      this.setState({
-        [name]:value   //phone: "n@"
+        [name]:value   
      })
 
 }

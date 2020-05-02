@@ -7,9 +7,7 @@ export function Button ({handleFormSubmit}) {
         </>
     )
 }
-// props={
-//   myname:this.state.myname
-// }
+
  export function Textbox ({textboxname, textboxvalue, handleInputChange}) {
     return (
         <div>
