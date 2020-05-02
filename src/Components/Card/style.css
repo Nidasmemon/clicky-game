@@ -1,5 +1,13 @@
-h1 {
-    text-align: center;
+body {
+    background-image: url("/assets/images/harrybackground.png");
+    background-size: cover;
+}
+
+h1, h2 {
+     text-align: center;
+    color: white;
+    font-weight: 800;
+    font-family: "Parry Hotter Regular";
 }
 
 Grid {

@@ -1,7 +1,6 @@
 import React, { Component } from "react"
 
 import Card from "../Components/Card"
-import CustomCard from "../Components/CustomCard"
 import db from '../utils/db.json'
 import UIContainer from '../Components/Container'
 class Home extends Component {
@@ -78,7 +77,8 @@ class Home extends Component {
     render() {
         return (
             <UIContainer>
-                <h1>Harry Potter Clicky Game <span>Score: {this.state.score}</span> <span>High Score: {this.state.highScore}</span></h1>  
+                <h1>Harry Potter Clicky Game</h1>  
+                <h2><span>Score: {this.state.score}</span> <span>High Score: {this.state.highScore}</span></h2>
                 {console.log("score", this.state.score, "high score ", this.state.highScore)}
                 <Card database={this.state.db} handleSubmit={this.handleSubmit} />
                 {/* <CustomCard /> */}
